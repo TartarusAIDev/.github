@@ -45,10 +45,21 @@ curl https://api.tartarusai.dev/v1/chat/completions \
 
 ### Repositories
 
+**Build with Tartarus**
+
 | Repo | What |
 |---|---|
+| [tartarus-sdk](https://github.com/TartarusAIDev/tartarus-sdk) | Typed TypeScript client: chat, streaming, tool-calling |
+| [tartarus-mcp](https://github.com/TartarusAIDev/tartarus-mcp) | MCP server: Tartarus as a tool in Claude Desktop / Cursor |
 | [tartarus-console](https://github.com/TartarusAIDev/tartarus-console) | The `tartarus` CLI: install and usage |
 | [tartarus-cookbook](https://github.com/TartarusAIDev/tartarus-cookbook) | Runnable examples: chat, streaming, tool-calling |
+
+**Uncensored AI, the field**
+
+| Repo | What |
+|---|---|
+| [refusal-bench](https://github.com/TartarusAIDev/refusal-bench) | Measure a model's false-refusal rate |
+| [uncensored-ai-guide](https://github.com/TartarusAIDev/uncensored-ai-guide) | How uncensoring works, run local vs hosted, tool-calling |
 | [awesome-uncensored-ai](https://github.com/TartarusAIDev/awesome-uncensored-ai) | Curated list of uncensored and local AI tooling |
 
 ---
