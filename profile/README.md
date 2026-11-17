@@ -106,6 +106,7 @@ authentication, rate limiting and plan quota apply to every request.
 | [**refusal-bench**](https://github.com/TartarusAIDev/refusal-bench) | Measure a model's false-refusal rate on legitimate coding tasks |
 | [**uncensored-ai-guide**](https://github.com/TartarusAIDev/uncensored-ai-guide) | Vendor-neutral guide: abliteration, local vs hosted, tool-calling |
 | [**awesome-uncensored-ai**](https://github.com/TartarusAIDev/awesome-uncensored-ai) | Curated list of uncensored and locally-runnable AI tooling |
+| [**awesome-ai-coding-agents**](https://github.com/TartarusAIDev/awesome-ai-coding-agents) | Curated, GitHub-API-verified comparison of 40+ AI coding agents |
 
 ## The developer path
 
