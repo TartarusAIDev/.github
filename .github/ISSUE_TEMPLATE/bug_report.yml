@@ -1,0 +1,38 @@
+name: Bug report
+description: Something isn't working as documented
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. Please search existing issues first, and don't
+        include tokens or other secrets.
+  - type: input
+    id: repo
+    attributes:
+      label: Which repo / package
+      placeholder: e.g. tartarus-sdk 0.1.0, or tartarus-console on PyPI
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      description: A minimal, copy-pasteable sequence. Redact any token.
+      render: shell
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: Environment
+      placeholder: OS, runtime version (Python / Node), package version
+    validations:
+      required: true

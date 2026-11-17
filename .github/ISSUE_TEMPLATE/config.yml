@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Product help & onboarding
+    url: https://tartarusai.dev/?utm_source=github&utm_medium=issue-config&utm_campaign=org&utm_content=help
+    about: Docs, getting started, and what Tartarus can do.
+  - name: Account, tokens & billing
+    url: https://dash.tartarusai.dev/?utm_source=github&utm_medium=issue-config&utm_campaign=org&utm_content=dashboard
+    about: Manage your account, CLI tokens, usage and billing.
+  - name: Report a security vulnerability
+    url: https://github.com/TartarusAIDev/.github/security/policy
+    about: Please report vulnerabilities privately, not as a public issue.
